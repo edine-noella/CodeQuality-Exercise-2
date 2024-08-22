@@ -9,7 +9,7 @@ function calculateArrayAverage(numbers) {
     // var average = sum / count;
     // return average;
 
-    return numbers.reduce((a, b) => a + b , 0) / numbers.length;
+    return numbers.reduce((acc,value) => acc + value , 0) / numbers.length
 
   }
 
